@@ -13,9 +13,9 @@ Spring Boot 기반으로 N+1 문제가 발생하는 상황을 직접 만들어 �
 - **프로젝트명**: JPA N+1 Test
 - **기술스택**: Java 21, Spring Boot 3.4.4, Spring Web, Lombok, Spring Data JPA, H2 Database, Swagger
 - **실험 목적**:
-  - JPA의 **지연 로딩 전략(Lazy Loading)**이 N+1 문제를 어떻게 유발하는지 체감
+  - JPA의 지연 로딩 전략(Lazy Loading)이 N+1 문제를 어떻게 유발하는지 체감
   - `fetch join`, DTO Projection 방식으로 N+1 문제를 해결하는 전략을 실험
-  - 단순 쿼리 수 비교를 넘어 JSON 직렬화 크기까지 포함한 **전체 응답 성능 분석**
+  - 단순 쿼리 수 비교를 넘어 JSON 직렬화 크기까지 포함한 전체 응답 성능 분석
 
 ---
 
